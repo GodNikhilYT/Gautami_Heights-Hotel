@@ -1,0 +1,649 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/*nav bar ki position*/
+.nave {
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999999999999999999999999999999999999999;
+}
+
+.nave li {
+    float: left;
+    list-style: none;
+    padding: 13px 20px;
+}
+
+.nave li a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nave li a:hover {
+    color: white;
+    background-color: black;
+}
+
+.nave ul {
+    overflow: auto;
+}
+
+/*div1-start*/
+.div1 {
+    margin-top: 46px;
+    background-color: rgb(255, 143, 143);
+}
+
+/*new*/
+.hero-image {
+    background-image: url("https://image.architonic.com/pro2-3/20199242/project-at-random-project-at-random-01-1-pro-b-arcit18.jpg");
+    background-color: #cccccc;
+    border: 3px solid black;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 143, 143);
+    text-shadow: 2px 2px 4px #ff0000;
+}
+
+.hadin {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 35px;
+}
+
+#p1 {
+    font-size: x-large;
+}
+
+#fon {
+    font-size: x-large;
+    font-family: "Shadows Into Light", cursive;
+    color: #ff0000;
+}
+
+.div2 img {
+    border: 4px solid white;
+    border-radius: 99px 0px 99px 0px;
+    display: block;
+    margin-left: 2rem;
+    /* margin-right: 0rem;*/
+    height: 27rem;
+    width: 40rem;
+}
+
+.sect2 {
+    /* height: 300px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* max-width: auto;
+    margin: auto;*/
+    background-color: rgb(144, 177, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0px 99px 0px 99px;
+}
+
+#fon1 {
+    font-family: cursive;
+    font-size: 65px;
+    text-shadow: 2px 2px 4px #ff0000;
+}
+
+/*P tag me animation*/
+.fade-in {
+    opacity: 0;
+    animation: fade-in-animation 2s ease-in forwards;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px black;
+    font-size: 71px;
+    text-align: center;
+}
+
+@keyframes fade-in-animation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*location*/
+.slide-in {
+    transform: translateX(-100%);
+    animation: slide-in-animation 1.5s forwards;
+    font-size: 60px;
+    color: rebeccapurple;
+    text-shadow: 2px 2px 4px #000000
+}
+
+@keyframes slide-in-animation {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*Button*/
+#butt {
+    margin-left: 80px;
+    padding: 21px;
+    background-color: rgb(116, 255, 139);
+    border-radius: 99px 0px 99px 0px;
+}
+
+#butt a {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+
+.div5 {
+    border: 3px solid black;
+    width: 28%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 12px;
+    background-color: cadetblue;
+    border-radius: 25px;
+}
+
+.div5:hover {
+    transform: scale(1.1);
+}
+
+/*section4*/
+.div6 {
+    background-color: cadetblue;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 27px;
+    font-size: xx-large;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+}
+
+.div6:hover {
+    transform: scale(1.1);
+}
+
+/*flex*/
+.div7 {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*hover and fit*/
+.img1 img {
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.img1 img:hover {
+    transform: scale(1.3)
+}
+
+/*section 5*/
+.div8 {
+    text-align: center;
+    background-color: #00000075;
+    padding: 9px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#pool {
+    background-color: dimgray;
+    width: 24%;
+    margin-left: 20px;
+    padding: 12px;
+    font-size: 41px;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 5px 10px #888888;
+}
+
+#pool:hover {
+    transform: scale(1.1);
+}
+
+.marq img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.marq {
+    border: 2px solid rgb(26, 31, 54);
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url('https://img.freepik.com/free-vector/stylish-glowing-digital-red-lines-banner_1017-23964.jpg?w=826&t=st=1686676983~exp=1686677583~hmac=2cb17fa43ac50c5aa448443829052db476161cfbb1d15322a83af218d929c7c7');
+}
+
+.div11 {
+    margin-left: 70px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwkuVPooqdI87AlkV-OLr7lL0hjrA7WHjvzA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 10px 10px 50px;
+    margin-right: 20px;
+}
+
+/*section 6*/
+.div14 {
+    background-color: #888888;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(255, 0, 0);
+    font-size: 37px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 4px
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.room {
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.slider:hover {
+    box-shadow: 5px 10px #888888;
+    transform: scale(1.1)
+}
+
+.slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.slider img:not(:first-child) {
+    opacity: 0;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.change-img-btn {
+    padding: 10px 20px;
+    background-color: #e2b606;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.change-img-btn:hover {
+    transform: scale(1.1);
+    color: #00000075;
+    background-color: #ffcc00;
+    box-shadow: 5px 10px #888888;
+}
+
+.div16 {
+    margin-left: 50px;
+    font-size: 20px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/690/932/non_2x/abstract-background-with-soft-gradient-color-and-dynamic-shadow-on-background-background-for-wallpaper-eps-10-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 50px;
+    margin-right: 20px;
+}
+
+.div18 img {
+    height: 310px;
+    width: 500px;
+    border-radius: 0px 99px 0px 99px;
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.div17 {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color: #000000;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+
+}
+
+.div19 {
+    color: #f2f2f2;
+    text-shadow: 2px 2px 4px rgb(255, 76, 76);
+}
+
+.div20 {
+    border-radius: 25px;
+    margin: 51px;
+    padding: 20px;
+    background-color: #e2b606;
+}
+
+.div20:hover {
+    box-shadow: 5px 7px #888888;
+    color: #000000;
+    transform: scale(1.1);
+    background-color: cornflowerblue;
+}
+
+.div21 {
+    color: #cccccc;
+}
+
+#price {
+    font-size: xx-large;
+    margin-top: 40px;
+}
+
+.pri {
+    color: #e2b606;
+}
+
+.pri2 {
+    text-decoration: line-through;
+}
+
+.div17:hover {
+    transform: scale(1.0);
+    box-shadow: 5px 10px #888888;
+}
+
+.butto1 {
+    margin-top: 70px;
+    margin-left: 64px;
+    padding: 9px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: rgb(255, 238, 0);
+}
+
+.butto1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.butto1:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 7px #888888;
+    background-color: cornflowerblue;
+}
+
+.div22 {
+    border: 2px solid #e2b606;
+    text-align: center;
+}
+
+/*section 7*/
+.div22 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    font-family: cursive;
+    font: bold;
+    color: #000000;
+    background-color: #e2b606;
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+/*dining Area*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-item .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.div24 {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url('https://i.pinimg.com/originals/da/42/64/da4264a33bbcfcd56d3cb80e26430518.png');
+    padding: 15px;
+}
+
+.div24:hover {
+    transform: scale(1.02);
+    border-radius: 6px;
+}
+
+#reme {
+    font-size: x-large;
+    color: #ff0000;
+    font-family: cursive;
+}
+
+.reservation-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.reservation-form:hover {
+    transform: scale(1.1);
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="email"],
+.reservation-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.reservation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.reservation-form button:hover {
+    background-color: #45a049;
+}
+
+.div25 {
+    background-color: rgb(229, 201, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+    font-size: 47px;
+    border-radius: 25px;
+}
+
+#hr1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 20px;
+    background-color: #45a049;
+}
+
+#hr1:hover {
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #888888;
+    height: 30px;
+}
+
+/*footer*/
+#h21 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#p21 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divfo {
+    text-align: center;
+}
+
+#p90 {
+    text-align: center;
+}
+#p90 a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: dimgrey;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer:hover{
+    transform: scale(1.01);
+    border-radius: 10px;
+}
+
+#h3h {
+    text-align: center;
+    background-color: #45a049;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px 10px 5px 10px;
+    font-family: cursive;
+}
+#pnikihl{
+    margin-left: 13%;
+}
+.r2h{
+    text-align: center;
+}
